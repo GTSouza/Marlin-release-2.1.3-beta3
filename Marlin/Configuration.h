@@ -1708,7 +1708,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET {-31.94, -40.66, -2.420}
+#define NOZZLE_TO_PROBE_OFFSET {-31.94, -40.66, -2.621}
 
 // Enable and set to use a specific tool for probing. Disable to allow any tool.
 #define PROBING_TOOL 0
@@ -2206,7 +2206,7 @@
 /**
  * Auto-leveling needs preheating
  */
-#define PREHEAT_BEFORE_LEVELING
+// #define PREHEAT_BEFORE_LEVELING
 #if ENABLED(PREHEAT_BEFORE_LEVELING)
   #define LEVELING_NOZZLE_TEMP   120   // (°C) Only applies to E0 at this time
   #define LEVELING_BED_TEMP     50
